@@ -1,10 +1,9 @@
+// Copyright 2014 Omni Development, Inc. All rights reserved.
 //
-//  ViewController.h
-//  PrimaryOverlayReplacementTest
-//
-//  Created by Tim Ekl on 2014.11.03.
-//  Copyright (c) 2014 The Omni Group. All rights reserved.
-//
+// This software may only be used and reproduced according to the
+// terms in the file OmniSourceLicense.html, which should be
+// distributed with this project and can also be found at
+// <http://www.omnigroup.com/developer/sourcecode/sourcelicense/>.
 
 #import <UIKit/UIKit.h>
 
