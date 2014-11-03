@@ -10,18 +10,23 @@
 
 @interface ViewController ()
 
+@property (nonatomic, copy) UIColor *color;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (id)initWithColor:(UIColor *)color;
+{
+    if ((self = [super initWithNibName:nil bundle:nil])) {
+        self.color = color;
+    }
+    return self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor = self.color;
 }
 
 @end
